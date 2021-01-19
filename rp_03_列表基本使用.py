@@ -24,10 +24,7 @@ name_list.pop()
 name_list.pop(3)
 name_list.remove("诸葛亮")
 # clear方法可以清空列表
-name_list.clear()
-
-
-
+# name_list.clear()
+print(name_list.index("猪二哥"))
 
 print(name_list)
-
