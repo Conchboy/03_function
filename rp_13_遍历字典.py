@@ -8,3 +8,6 @@ xiaoming_dict = {"name": "小明",
 
 for k in xiaoming_dict:
     print("%-6s ： %s" % (k, xiaoming_dict[k]))
+# 实际开发常用的应用场景：
+# 使用字典存储描述一个物体（对象）的相关信息：比如一个学生的相关信息
+# 使用列表来安放上述生成的不同物体（对象）的字典集合
